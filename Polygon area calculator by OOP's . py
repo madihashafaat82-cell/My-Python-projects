@@ -1,0 +1,35 @@
+class square:
+    def __init__(self , side):
+        self.side = side
+
+    def area(self):
+        print("My area of Square is:", self.side ** 2)
+
+
+class paralellogram:
+    def __init__(self , base, height):
+        self.base = base
+        self.height = height 
+
+    def area(self):
+        print("My area of Paralellogram is:", self.base * self.height)
+
+
+class triangle:
+    def __init__(self , base, height):
+        self.base = base
+        self.height = height
+
+    def area(self):
+        print("My area of Triangle is:", 0.5 * self.base * self.height)
+
+
+# Object creation
+oS = square(5)
+oP = paralellogram(4, 6)
+oT = triangle(3, 8)
+
+# Function calling
+oS.area()
+oP.area()
+oT.area()
