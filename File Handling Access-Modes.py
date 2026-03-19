@@ -9,10 +9,10 @@ file.close()
 # Write Mode (overwrite old content)
 file = open("student.txt", "w")
 file.write("File in Writing mode:")
-file.write("6-Abdullah")
-file.write("7-Shahid")
-file.write("8-Shoaib")
-file.write("9-Suleman")
+file.write("6-Abdullah" \
+           "7-Shahid" \
+           "8-Shoaib" \
+           "9-Suleman")
 file.close()
 
 print("\nData written to file.")
